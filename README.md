@@ -4,11 +4,7 @@
 - clone the project on your local 
 - Execute `npm install` on the same path as of your root directory of the downloaded project
 - Create a `.env` file in the root directory and the following environment variables
-<<<<<<< HEAD
    - `PORT=3000`
-=======
-  - `PORT=3000`
->>>>>>> 63f60f1cb0037d3a4b910d93f3c085caf8b171c8
 - Inside the `src/config` folder create a new file `config.json` and then add the following piece of json
  
  ```{
@@ -20,7 +16,6 @@
     "dialect": "mysql"
   }
 }
-<<<<<<< HEAD
 ```
 - Once you've added your db config as listed above, go to the src folder from your terminal and excute `npx sequelize db:create`
 
@@ -43,5 +38,4 @@
 
 
 
->>>>>>> 63f60f1cb0037d3a4b910d93f3c085caf8b171c8
 
