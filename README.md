@@ -42,4 +42,6 @@
     `npx sequelize db:create`
 
 
+
 >>>>>>> 63f60f1cb0037d3a4b910d93f3c085caf8b171c8
+

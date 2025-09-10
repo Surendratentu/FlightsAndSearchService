@@ -1,8 +1,10 @@
 const express =require('express');
 require('dotenv').config();
+const bodyParser = require("body-parser");
+
 
 const {PORT} = require('./config/serverConfig');
-const bodyParser = require('body-parser');
+
 
 const setupAndStartServer = async()=>{
 
@@ -15,9 +17,10 @@ const setupAndStartServer = async()=>{
     
 
     // create the server
-    app.listen(PORT,()=>{
+    app.listen(PORT, async()=>{
         console.log(`Server started at port ${PORT}`);
-    })
+
+    });
 }
 
 setupAndStartServer();
